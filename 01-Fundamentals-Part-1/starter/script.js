@@ -93,6 +93,7 @@ if (birthyear <= 2000) {
 } else { century = 21; }
 console.log(century);
 */
+/*
 //type conversion
 const inputyear = '1991';
 console.log(Number(inputyear), inputyear);
@@ -107,3 +108,54 @@ console.log(String(26), 26);
 console.log('i am ' + 25 + ' years old');
 console.log('23' - '10' - 3);
 console.log('23' / '2');
+*/
+//five falsy valuesL:0,'',undefined,null,NaN
+/*
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean('yusef'));
+console.log(Boolean(''));
+console.log(Boolean({}));
+let money = 0;
+if (money) {
+    console.log("don't spend it all dear!");
+} else {
+    console.log('go get a job mother fucker!');
+}
+let height;
+if (height) {
+    console.log('boo !ur dick is smaller than a little candy lol');
+}
+else {
+    console.log('am i a joke to u mother fucker');
+}
+*/
+/*
+const age = '18';
+if (age === 18) console.log('u should get drunk (strickt)');
+if (age == 18) console.log('u should get drunk (loose)');
+const favourite = prompt("what's ur favourite number?");
+console.log(favourite);
+console.log(typeof favourite);
+if (favourite == 69) {// 69==69 
+    console.log('its getting hot hear!');
+} else if (favourite == 1) {
+    console.log('i have a better number its 69 ');
+} else if (favourite == 9) {
+    console.log('u missed 6');
+} else {
+    console.log('do u know that if u suck my 🍆 it could be a 69');
+}
+
+if (favourite !== 69) console.log('why not 69!');
+*/
+const hasgoodass = true;
+const hasdick = false;
+console.log(hasgoodass && hasdick);
+console.log(hasgoodass || hasdick);
+console.log(!hasgoodass);
+if (hasgoodass && hasdick) {
+    console.log('get a room');
+} else {
+    console.log('danger!');
+}
