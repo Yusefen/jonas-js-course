@@ -62,3 +62,48 @@ console.log(x, y);
 const averageage = (ageofsahel + ageofyusef) / 2;
 console.log(ageofsahel, ageofyusef, averageage);
 */
+
+/*
+const firstname = 'yusef';
+const year = '2025';
+const birth = '1999';
+const job = 'producer'
+const yusef = "i'm " + firstname + ' ,a ' + (year - birth) + ' years old ' + job;
+
+console.log(yusef)
+
+// Template literals
+const newyusef = `i'm ${firstname}, a ${year - birth} , years old ${job} `;
+console.log(`pashmak
+moz
+khiar`); 
+*/
+/*
+const age = 25;
+if (age >= 18) { console.log('yusef can get his lisence 🏎️') }
+else {
+    const yearsleft = 18 - age;
+    console.log(`yusef need ${yearsleft} years to get lisence:) `);
+}
+
+const birthyear = 1999
+let century;
+if (birthyear <= 2000) {
+    century = 20;
+} else { century = 21; }
+console.log(century);
+*/
+//type conversion
+const inputyear = '1991';
+console.log(Number(inputyear), inputyear);
+console.log(Number(inputyear) + 18);
+
+console.log(Number('jonas'));
+console.log(typeof NaN);
+
+console.log(String(26), 26);
+
+//type coercion
+console.log('i am ' + 25 + ' years old');
+console.log('23' - '10' - 3);
+console.log('23' / '2');
